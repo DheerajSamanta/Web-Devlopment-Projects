@@ -1,0 +1,72 @@
+/* more styling to be added */
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Urbanist',sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right,#116a54,#e6f3ad);
+    color:rgb(255, 232, 232)
+    
+}
+.main-class{
+    display: grid;
+    place-items: center;
+
+    margin-top: 15rem;
+    row-gap: 1.45rem;
+    
+    
+}
+h1{
+font-size: 2.7rem;
+}
+p{
+font-size: 1.217rem;
+}
+button{
+padding: 0.7rem 1.2rem;
+border-radius: 1.3rem;
+border: 0.14rem solid #1f1f1f;
+background-color:chartreuse ;
+font-weight: 560;
+
+
+
+}
+button:active{
+color: chartreuse;
+border: 0.14rem solid chartreuse;
+background-color:#1f1f1f ;
+box-shadow: rgba(127, 255, 0, 0.3) 0px 1px 2px 0px, rgba(127, 255, 0, 0.15) 0px 2px 6px 2px;
+}
+.output-val{
+border: 0.1rem solid white;
+border-radius: 0.2rem;
+}
+.output-val:active{
+
+
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+}
+
+
+
+.output-val{
+width: 27rem;
+padding: 0.7rem 1.6rem;
+text-align: center;
+box-shadow: rgba(25, 25, 124, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+
+
+
+
+}
